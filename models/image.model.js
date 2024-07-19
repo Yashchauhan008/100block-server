@@ -4,6 +4,7 @@ const imageSchema = new mongoose.Schema({
   url: String,
   public_id: String,
   block_no: Number,
+  user:String,
   created_at: { type: Date, default: Date.now }
 });
 
